@@ -1,0 +1,3 @@
+	Serial.begin(9600);
+	Motor.attach(9);            // conecta o servo no pino 9
+	//Motor.write(120);
