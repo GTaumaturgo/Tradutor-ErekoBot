@@ -57,10 +57,17 @@ public class My_main {
 			Map <String,String> fixed_types = new HashMap<>();
 			str = getFileContent("./output/types.txt");
 			String[] lines = str.split("\n");
+			System.out.println(lines.length);
 			for(String line:lines){
-				String[] temp = line.split(" ");
-				System.out.println(temp[1]);
-				fixed_types.put(temp[1], temp[0]);
+				if(line.length() > 0){
+					
+					String[] temp = line.split(" ");
+					
+					if(temp != null){
+						System.out.println();
+						fixed_types.put(temp[1], temp[0]);
+				}
+				}
 			}
 			str = getFileContent("./output/output.txt");
 

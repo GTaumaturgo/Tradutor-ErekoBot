@@ -1,2 +1,0 @@
-float[360] phi
-int i

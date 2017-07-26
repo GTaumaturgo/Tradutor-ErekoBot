@@ -260,7 +260,8 @@ public class Translator extends LuaBaseVisitor<String>{
 	public String visitFor(ForContext ctx) {
 		
 		String acc = "";
-		acc +="for(TYPE " + ctx.NAME().getText() + " = " + visit(ctx.exp(0)) + "; " +
+		addVar(ctx.NAME().getText());
+		acc +="for(" + ctx.NAME().getText() + " = " + visit(ctx.exp(0)) + "; " +
 		ctx.NAME() + " < " + visit(ctx.exp(1)) + ";";
 		if(ctx.exp(2)== null)
 			acc += ctx.NAME().getText() + "+= 1";
