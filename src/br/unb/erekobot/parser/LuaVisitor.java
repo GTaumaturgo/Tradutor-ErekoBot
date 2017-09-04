@@ -1,4 +1,4 @@
-// Generated from Lua.g4 by ANTLR 4.5.3
+// Generated from Lua.g4 by ANTLR 4.7
 package br.unb.erekobot.parser;
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 
@@ -276,19 +276,19 @@ public interface LuaVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitFalse(LuaParser.FalseContext ctx);
 	/**
-	 * Visit a parse tree produced by the {@code TableConstructor}
-	 * labeled alternative in {@link LuaParser#exp}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitTableConstructor(LuaParser.TableConstructorContext ctx);
-	/**
 	 * Visit a parse tree produced by the {@code Nil}
 	 * labeled alternative in {@link LuaParser#exp}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
 	T visitNil(LuaParser.NilContext ctx);
+	/**
+	 * Visit a parse tree produced by the {@code TableConstructorr}
+	 * labeled alternative in {@link LuaParser#exp}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitTableConstructorr(LuaParser.TableConstructorrContext ctx);
 	/**
 	 * Visit a parse tree produced by the {@code Numberr}
 	 * labeled alternative in {@link LuaParser#exp}.

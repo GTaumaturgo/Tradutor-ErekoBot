@@ -24,6 +24,7 @@ import br.unb.erekobot.visitors.Translator;
 
 public class My_main {
 
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		ANTLRInputStream input;
 //		View  mView = new View();

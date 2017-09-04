@@ -117,7 +117,7 @@ exp: 'nil'                                    #Nil
     | '...'                                   #Retincence
     | functiondef                             #FuncDef
     | prefixexp                               #PrefixExpression
-    | tableconstructor                        #TableConstructor
+    | tableconstructor                        #TableConstructorr
     | <assoc=right> exp operatorPower exp     #OperatorPowerr
     | operatorUnary exp                       #UnaryOperator
     | exp operatorMulDivMod exp               #MultDivMod

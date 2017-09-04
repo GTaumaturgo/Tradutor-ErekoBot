@@ -1,4 +1,4 @@
-// Generated from Lua.g4 by ANTLR 4.5.3
+// Generated from Lua.g4 by ANTLR 4.7
 package br.unb.erekobot.parser;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class LuaParser extends Parser {
-	static { RuntimeMetaData.checkVersion("4.5.3", RuntimeMetaData.VERSION); }
+	static { RuntimeMetaData.checkVersion("4.7", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =
@@ -200,6 +200,7 @@ public class LuaParser extends Parser {
 				_la = _input.LA(1);
 			}
 			setState(80);
+			_errHandler.sync(this);
 			_la = _input.LA(1);
 			if (_la==T__33) {
 				{
@@ -910,6 +911,7 @@ public class LuaParser extends Parser {
 					_la = _input.LA(1);
 				}
 				setState(206);
+				_errHandler.sync(this);
 				_la = _input.LA(1);
 				if (_la==T__28) {
 					{
@@ -941,6 +943,7 @@ public class LuaParser extends Parser {
 				setState(215);
 				exp(0);
 				setState(218);
+				_errHandler.sync(this);
 				_la = _input.LA(1);
 				if (_la==T__18) {
 					{
@@ -1014,6 +1017,7 @@ public class LuaParser extends Parser {
 				setState(241);
 				namelist();
 				setState(244);
+				_errHandler.sync(this);
 				_la = _input.LA(1);
 				if (_la==T__12) {
 					{
@@ -1064,6 +1068,7 @@ public class LuaParser extends Parser {
 			setState(248);
 			match(T__33);
 			setState(250);
+			_errHandler.sync(this);
 			_la = _input.LA(1);
 			if ((((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << T__2) | (1L << T__19) | (1L << T__31) | (1L << T__37) | (1L << T__38) | (1L << T__39) | (1L << T__40) | (1L << T__43) | (1L << T__54) | (1L << T__61))) != 0) || ((((_la - 65)) & ~0x3f) == 0 && ((1L << (_la - 65)) & ((1L << (T__64 - 65)) | (1L << (NAME - 65)) | (1L << (NORMALSTRING - 65)) | (1L << (CHARSTRING - 65)) | (1L << (LONGSTRING - 65)) | (1L << (INT - 65)) | (1L << (HEX - 65)) | (1L << (FLOAT - 65)) | (1L << (HEX_FLOAT - 65)))) != 0)) {
 				{
@@ -1073,6 +1078,7 @@ public class LuaParser extends Parser {
 			}
 
 			setState(253);
+			_errHandler.sync(this);
 			_la = _input.LA(1);
 			if (_la==T__0) {
 				{
@@ -1174,6 +1180,7 @@ public class LuaParser extends Parser {
 				_la = _input.LA(1);
 			}
 			setState(269);
+			_errHandler.sync(this);
 			_la = _input.LA(1);
 			if (_la==T__36) {
 				{
@@ -1443,22 +1450,22 @@ public class LuaParser extends Parser {
 			else return visitor.visitChildren(this);
 		}
 	}
-	public static class TableConstructorContext extends ExpContext {
-		public TableconstructorContext tableconstructor() {
-			return getRuleContext(TableconstructorContext.class,0);
-		}
-		public TableConstructorContext(ExpContext ctx) { copyFrom(ctx); }
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof LuaVisitor ) return ((LuaVisitor<? extends T>)visitor).visitTableConstructor(this);
-			else return visitor.visitChildren(this);
-		}
-	}
 	public static class NilContext extends ExpContext {
 		public NilContext(ExpContext ctx) { copyFrom(ctx); }
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
 			if ( visitor instanceof LuaVisitor ) return ((LuaVisitor<? extends T>)visitor).visitNil(this);
+			else return visitor.visitChildren(this);
+		}
+	}
+	public static class TableConstructorrContext extends ExpContext {
+		public TableconstructorContext tableconstructor() {
+			return getRuleContext(TableconstructorContext.class,0);
+		}
+		public TableConstructorrContext(ExpContext ctx) { copyFrom(ctx); }
+		@Override
+		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
+			if ( visitor instanceof LuaVisitor ) return ((LuaVisitor<? extends T>)visitor).visitTableConstructorr(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1630,6 +1637,7 @@ public class LuaParser extends Parser {
 			enterOuterAlt(_localctx, 1);
 			{
 			setState(308);
+			_errHandler.sync(this);
 			switch (_input.LA(1)) {
 			case T__37:
 				{
@@ -1712,7 +1720,7 @@ public class LuaParser extends Parser {
 				break;
 			case T__43:
 				{
-				_localctx = new TableConstructorContext(_localctx);
+				_localctx = new TableConstructorrContext(_localctx);
 				_ctx = _localctx;
 				_prevctx = _localctx;
 				setState(304);
@@ -2090,6 +2098,7 @@ public class LuaParser extends Parser {
 			enterOuterAlt(_localctx, 1);
 			{
 			setState(373);
+			_errHandler.sync(this);
 			switch (_input.LA(1)) {
 			case NAME:
 				{
@@ -2185,6 +2194,7 @@ public class LuaParser extends Parser {
 				_la = _input.LA(1);
 			}
 			setState(393);
+			_errHandler.sync(this);
 			switch (_input.LA(1)) {
 			case T__41:
 				{
@@ -2244,6 +2254,7 @@ public class LuaParser extends Parser {
 			enterOuterAlt(_localctx, 1);
 			{
 			setState(397);
+			_errHandler.sync(this);
 			_la = _input.LA(1);
 			if (_la==T__36) {
 				{
@@ -2296,6 +2307,7 @@ public class LuaParser extends Parser {
 		int _la;
 		try {
 			setState(408);
+			_errHandler.sync(this);
 			switch (_input.LA(1)) {
 			case T__2:
 				enterOuterAlt(_localctx, 1);
@@ -2303,6 +2315,7 @@ public class LuaParser extends Parser {
 				setState(401);
 				match(T__2);
 				setState(403);
+				_errHandler.sync(this);
 				_la = _input.LA(1);
 				if ((((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << T__2) | (1L << T__19) | (1L << T__31) | (1L << T__37) | (1L << T__38) | (1L << T__39) | (1L << T__40) | (1L << T__43) | (1L << T__54) | (1L << T__61))) != 0) || ((((_la - 65)) & ~0x3f) == 0 && ((1L << (_la - 65)) & ((1L << (T__64 - 65)) | (1L << (NAME - 65)) | (1L << (NORMALSTRING - 65)) | (1L << (CHARSTRING - 65)) | (1L << (LONGSTRING - 65)) | (1L << (INT - 65)) | (1L << (HEX - 65)) | (1L << (FLOAT - 65)) | (1L << (HEX_FLOAT - 65)))) != 0)) {
 					{
@@ -2412,6 +2425,7 @@ public class LuaParser extends Parser {
 			setState(413);
 			match(T__2);
 			setState(415);
+			_errHandler.sync(this);
 			_la = _input.LA(1);
 			if (_la==T__40 || _la==NAME) {
 				{
@@ -2460,6 +2474,7 @@ public class LuaParser extends Parser {
 		int _la;
 		try {
 			setState(427);
+			_errHandler.sync(this);
 			switch (_input.LA(1)) {
 			case NAME:
 				enterOuterAlt(_localctx, 1);
@@ -2467,6 +2482,7 @@ public class LuaParser extends Parser {
 				setState(421);
 				namelist();
 				setState(424);
+				_errHandler.sync(this);
 				_la = _input.LA(1);
 				if (_la==T__18) {
 					{
@@ -2526,6 +2542,7 @@ public class LuaParser extends Parser {
 			setState(429);
 			match(T__43);
 			setState(431);
+			_errHandler.sync(this);
 			_la = _input.LA(1);
 			if ((((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << T__2) | (1L << T__19) | (1L << T__31) | (1L << T__37) | (1L << T__38) | (1L << T__39) | (1L << T__40) | (1L << T__41) | (1L << T__43) | (1L << T__54) | (1L << T__61))) != 0) || ((((_la - 65)) & ~0x3f) == 0 && ((1L << (_la - 65)) & ((1L << (T__64 - 65)) | (1L << (NAME - 65)) | (1L << (NORMALSTRING - 65)) | (1L << (CHARSTRING - 65)) | (1L << (LONGSTRING - 65)) | (1L << (INT - 65)) | (1L << (HEX - 65)) | (1L << (FLOAT - 65)) | (1L << (HEX_FLOAT - 65)))) != 0)) {
 				{
@@ -2602,6 +2619,7 @@ public class LuaParser extends Parser {
 				_alt = getInterpreter().adaptivePredict(_input,31,_ctx);
 			}
 			setState(445);
+			_errHandler.sync(this);
 			_la = _input.LA(1);
 			if (_la==T__0 || _la==T__18) {
 				{
@@ -2718,7 +2736,10 @@ public class LuaParser extends Parser {
 			_la = _input.LA(1);
 			if ( !(_la==T__0 || _la==T__18) ) {
 			_errHandler.recoverInline(this);
-			} else {
+			}
+			else {
+				if ( _input.LA(1)==Token.EOF ) matchedEOF = true;
+				_errHandler.reportMatch(this);
 				consume();
 			}
 			}
@@ -2823,7 +2844,10 @@ public class LuaParser extends Parser {
 			_la = _input.LA(1);
 			if ( !((((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << T__4) | (1L << T__47) | (1L << T__48) | (1L << T__49) | (1L << T__50) | (1L << T__51))) != 0)) ) {
 			_errHandler.recoverInline(this);
-			} else {
+			}
+			else {
+				if ( _input.LA(1)==Token.EOF ) matchedEOF = true;
+				_errHandler.reportMatch(this);
 				consume();
 			}
 			}
@@ -2895,7 +2919,10 @@ public class LuaParser extends Parser {
 			_la = _input.LA(1);
 			if ( !(_la==T__53 || _la==T__54) ) {
 			_errHandler.recoverInline(this);
-			} else {
+			}
+			else {
+				if ( _input.LA(1)==Token.EOF ) matchedEOF = true;
+				_errHandler.reportMatch(this);
 				consume();
 			}
 			}
@@ -2934,7 +2961,10 @@ public class LuaParser extends Parser {
 			_la = _input.LA(1);
 			if ( !((((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << T__55) | (1L << T__56) | (1L << T__57) | (1L << T__58))) != 0)) ) {
 			_errHandler.recoverInline(this);
-			} else {
+			}
+			else {
+				if ( _input.LA(1)==Token.EOF ) matchedEOF = true;
+				_errHandler.reportMatch(this);
 				consume();
 			}
 			}
@@ -2973,7 +3003,10 @@ public class LuaParser extends Parser {
 			_la = _input.LA(1);
 			if ( !(((((_la - 60)) & ~0x3f) == 0 && ((1L << (_la - 60)) & ((1L << (T__59 - 60)) | (1L << (T__60 - 60)) | (1L << (T__61 - 60)) | (1L << (T__62 - 60)) | (1L << (T__63 - 60)))) != 0)) ) {
 			_errHandler.recoverInline(this);
-			} else {
+			}
+			else {
+				if ( _input.LA(1)==Token.EOF ) matchedEOF = true;
+				_errHandler.reportMatch(this);
 				consume();
 			}
 			}
@@ -3012,7 +3045,10 @@ public class LuaParser extends Parser {
 			_la = _input.LA(1);
 			if ( !(((((_la - 20)) & ~0x3f) == 0 && ((1L << (_la - 20)) & ((1L << (T__19 - 20)) | (1L << (T__54 - 20)) | (1L << (T__61 - 20)) | (1L << (T__64 - 20)))) != 0)) ) {
 			_errHandler.recoverInline(this);
-			} else {
+			}
+			else {
+				if ( _input.LA(1)==Token.EOF ) matchedEOF = true;
+				_errHandler.reportMatch(this);
 				consume();
 			}
 			}
@@ -3088,7 +3124,10 @@ public class LuaParser extends Parser {
 			_la = _input.LA(1);
 			if ( !(((((_la - 71)) & ~0x3f) == 0 && ((1L << (_la - 71)) & ((1L << (INT - 71)) | (1L << (HEX - 71)) | (1L << (FLOAT - 71)) | (1L << (HEX_FLOAT - 71)))) != 0)) ) {
 			_errHandler.recoverInline(this);
-			} else {
+			}
+			else {
+				if ( _input.LA(1)==Token.EOF ) matchedEOF = true;
+				_errHandler.reportMatch(this);
 				consume();
 			}
 			}
@@ -3130,7 +3169,10 @@ public class LuaParser extends Parser {
 			_la = _input.LA(1);
 			if ( !(((((_la - 68)) & ~0x3f) == 0 && ((1L << (_la - 68)) & ((1L << (NORMALSTRING - 68)) | (1L << (CHARSTRING - 68)) | (1L << (LONGSTRING - 68)))) != 0)) ) {
 			_errHandler.recoverInline(this);
-			} else {
+			}
+			else {
+				if ( _input.LA(1)==Token.EOF ) matchedEOF = true;
+				_errHandler.reportMatch(this);
 				consume();
 			}
 			}
@@ -3176,7 +3218,7 @@ public class LuaParser extends Parser {
 	}
 
 	public static final String _serializedATN =
-		"\3\u0430\ud6d1\u8206\uad2d\u4417\uaef1\u8d80\uaadd\3P\u01e6\4\2\t\2\4"+
+		"\3\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786\u5964\3P\u01e6\4\2\t\2\4"+
 		"\3\t\3\4\4\t\4\4\5\t\5\4\6\t\6\4\7\t\7\4\b\t\b\4\t\t\t\4\n\t\n\4\13\t"+
 		"\13\4\f\t\f\4\r\t\r\4\16\t\16\4\17\t\17\4\20\t\20\4\21\t\21\4\22\t\22"+
 		"\4\23\t\23\4\24\t\24\4\25\t\25\4\26\t\26\4\27\t\27\4\30\t\30\4\31\t\31"+
@@ -3213,11 +3255,11 @@ public class LuaParser extends Parser {
 		"\3\33\3\34\3\34\3\35\3\35\3\36\3\36\3\37\3\37\3 \3 \3!\3!\3\"\3\"\3#\3"+
 		"#\3$\3$\3$\2\3\24%\2\4\6\b\n\f\16\20\22\24\26\30\32\34\36 \"$&(*,.\60"+
 		"\62\64\668:<>@BDF\2\n\4\2\3\3\25\25\4\2\7\7\62\66\3\289\3\2:=\3\2>B\6"+
-		"\2\26\2699@@CC\3\2IL\3\2FH\u020c\2H\3\2\2\2\4N\3\2\2\2\6\u00f8\3\2\2\2"+
-		"\b\u00fa\3\2\2\2\n\u0101\3\2\2\2\f\u0105\3\2\2\2\16\u0111\3\2\2\2\20\u0119"+
-		"\3\2\2\2\22\u0121\3\2\2\2\24\u0136\3\2\2\2\26\u015d\3\2\2\2\30\u0164\3"+
-		"\2\2\2\32\u016f\3\2\2\2\34\u0177\3\2\2\2\36\u0182\3\2\2\2 \u018f\3\2\2"+
-		"\2\"\u019a\3\2\2\2$\u019c\3\2\2\2&\u019f\3\2\2\2(\u01ad\3\2\2\2*\u01af"+
+		"\2\26\2699@@CC\3\2IL\3\2FH\2\u020c\2H\3\2\2\2\4N\3\2\2\2\6\u00f8\3\2\2"+
+		"\2\b\u00fa\3\2\2\2\n\u0101\3\2\2\2\f\u0105\3\2\2\2\16\u0111\3\2\2\2\20"+
+		"\u0119\3\2\2\2\22\u0121\3\2\2\2\24\u0136\3\2\2\2\26\u015d\3\2\2\2\30\u0164"+
+		"\3\2\2\2\32\u016f\3\2\2\2\34\u0177\3\2\2\2\36\u0182\3\2\2\2 \u018f\3\2"+
+		"\2\2\"\u019a\3\2\2\2$\u019c\3\2\2\2&\u019f\3\2\2\2(\u01ad\3\2\2\2*\u01af"+
 		"\3\2\2\2,\u01b5\3\2\2\2.\u01cb\3\2\2\2\60\u01cd\3\2\2\2\62\u01cf\3\2\2"+
 		"\2\64\u01d1\3\2\2\2\66\u01d3\3\2\2\28\u01d5\3\2\2\2:\u01d7\3\2\2\2<\u01d9"+
 		"\3\2\2\2>\u01db\3\2\2\2@\u01dd\3\2\2\2B\u01df\3\2\2\2D\u01e1\3\2\2\2F"+

@@ -1,7 +1,11 @@
+#include <Servo.h>
+Servo Motor;
 float res;
 float i;
 void setup(){
-
+	Serial.begin(9600);
+	Motor.attach(9);            // conecta o servo no pino 9
+	//Motor.write(120);
 }
 void loop(){
 	delay(17);

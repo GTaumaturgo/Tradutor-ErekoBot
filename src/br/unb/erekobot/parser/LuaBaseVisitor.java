@@ -1,4 +1,4 @@
-// Generated from Lua.g4 by ANTLR 4.5.3
+// Generated from Lua.g4 by ANTLR 4.7
 package br.unb.erekobot.parser;
 import org.antlr.v4.runtime.tree.AbstractParseTreeVisitor;
 
@@ -290,14 +290,14 @@ public class LuaBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements Lu
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitTableConstructor(LuaParser.TableConstructorContext ctx) { return visitChildren(ctx); }
+	@Override public T visitNil(LuaParser.NilContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitNil(LuaParser.NilContext ctx) { return visitChildren(ctx); }
+	@Override public T visitTableConstructorr(LuaParser.TableConstructorrContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *

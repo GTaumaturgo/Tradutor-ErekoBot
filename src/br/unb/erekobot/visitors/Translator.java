@@ -74,7 +74,7 @@ import br.unb.erekobot.parser.LuaParser.SetupFunContext;
 import br.unb.erekobot.parser.LuaParser.StrCatContext;
 import br.unb.erekobot.parser.LuaParser.StringContext;
 import br.unb.erekobot.parser.LuaParser.StringgContext;
-import br.unb.erekobot.parser.LuaParser.TableConstructorContext;
+import br.unb.erekobot.parser.LuaParser.TableConstructorrContext;
 import br.unb.erekobot.parser.LuaParser.TableconstructorContext;
 import br.unb.erekobot.parser.LuaParser.TrueContext;
 import br.unb.erekobot.parser.LuaParser.UnaryOperatorContext;
@@ -87,7 +87,7 @@ public class Translator extends LuaBaseVisitor<String>{
 	
 	List<String> var_list = new ArrayList<String>();
 	
-	public String tabulacao(){
+	private String tabulacao(){
 		String acc = "";
 		for(int j = 0; j < tabCount; j++)
 			acc += "\t";
@@ -530,7 +530,7 @@ public class Translator extends LuaBaseVisitor<String>{
 	}
 
 	@Override
-	public String visitTableConstructor(TableConstructorContext ctx) {
+	public String visitTableConstructorr(TableConstructorrContext ctx) {
 		// TODO Auto-generated method stub
 		return "VETOR";
 	}
