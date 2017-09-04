@@ -31,6 +31,8 @@ Feito isso, clone esse repositório
 ```
 git clone https://github.com/GTaumaturgo/Tradutor-ErekoBot.git
 ```
-
+Agora é necessário importar o projeto, para isso, faça:
 Abra o eclipse. -> File -> Import.. -> General -> Existing Projects into workspace -> Select Root directory;
 Selecione a pasta clonada.
+
+Após esse processo, Deve ser possivel executar o programa pelo eclipse.
