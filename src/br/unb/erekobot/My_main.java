@@ -29,6 +29,11 @@ public class My_main {
 		ANTLRInputStream input;
 //		View  mView = new View();
 		try {
+			
+			String line_break = "\n";
+			// NO CASO DE WINDOWS, TROCAR PARA = "\r\n";
+			
+			
 			input = new ANTLRInputStream(getFileContent("./src/br/unb/erekobot/parser/input.demo"));
 			LuaLexer lexer = new LuaLexer(input);
 			CommonTokenStream tokens = new CommonTokenStream(lexer);
@@ -45,7 +50,7 @@ public class My_main {
 			
 			String str = getFileContent("./output/output.txt");
 			fw = new FileWriter("./output/output.txt");
-			String procurada = "void setup(){\n";
+			String procurada = "void setup(){" + line_break;
 			
 			String antes = str.substring(0,str.indexOf(procurada));
 			String depois = str.substring(procurada.length()+ str.indexOf(procurada));
@@ -57,7 +62,7 @@ public class My_main {
 			
 			Map <String,String> fixed_types = new HashMap<>();
 			str = getFileContent("./output/types.txt");
-			String[] lines = str.split("\n");
+			String[] lines = str.split(line_break);
 			System.out.println(lines.length);
 			for(String line:lines){
 				if(line.length() > 0){
@@ -96,11 +101,11 @@ public class My_main {
 					String name = raw.substring(0,raw.indexOf("[")); 
 					String rest = raw.substring(raw.indexOf("["));
 					
-					fw.write(name + " "+ vars.get(i) + rest +";\n");
+					fw.write(name + " "+ vars.get(i) + rest +";" + line_break);
 				}
 				else{
 					
-					fw.write(def_types.get(vars.get(i)) + " "+ vars.get(i) + ";\n");
+					fw.write(def_types.get(vars.get(i)) + " "+ vars.get(i) + ";" + line_break);
 				}
 			}
 			
@@ -108,12 +113,12 @@ public class My_main {
 			fw.close();
 			str = getFileContent("./output/output.txt");
 			fw = new FileWriter("./output/output.txt");
-			String[] lista = str.split("\n");
+			String[] lista = str.split(line_break);
 			int n =  lista.length;
 			List<String> nova = new ArrayList<String>();
 			for(int i = 0; i < n; i++){
 				if(!lista[i].equals(";")){
-					fw.write(lista[i] + "\n");
+					fw.write(lista[i] + line_break);
 				}
 			}
 			
