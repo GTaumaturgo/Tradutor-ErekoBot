@@ -2,192 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ec466d1-c03e-4210-aecc-e4a2e7776583" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_4_5_3.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FirstTimeIncContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$SetScriptAttribContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$TableconstructorContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/Lua.tokens" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaLexer.tokens" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/My_main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/View.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaBaseVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$AddSubContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$AndContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ArgsContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$BitWiseContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$BlockContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$BreakContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ChunkContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$CleanupContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ComparisonContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$DoContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ExpContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ExplistContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FalseContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FieldContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FieldlistContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FieldsepContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FirstTimeAttribContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FirstTimeIfContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ForContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ForMultiAttribContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FuncCallContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FuncDeclarationContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FuncDefContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FuncbodyContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FuncnameContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FunctioncallContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FunctiondefContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$GetHandleContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$GetObjectContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$GetScriptContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$GotoContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$IfContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$LabelContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$LabellContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$LocalAttribContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$LocalFuncDeclarationContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$LoopFunContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$MultDivModContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$MultiAttribContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$NameAndArgsContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$NamelistContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$NilContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$NumberContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$NumberrContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorAddSubContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorAndContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorBitwiseContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorComparisonContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorMulDivModContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorOrContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorPowerContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorPowerrContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorStrcatContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorUnaryContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OrContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ParenExpContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ParlistContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$PrefixExpressionContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$PrefixexpContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$RepeatContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$RetincenceContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$RetstatContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$SemiColonContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$SensingContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$SetJointContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$SetScriptContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$SetupFunContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$StatContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$StrCatContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$StringContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$StringgContext.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$TableconstructorContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/input.demo" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaLexer.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaLexer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$AddSubContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$AddSubContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$AndContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$AndContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$ArgsContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$ArgsContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$BitWiseContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$BitWiseContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$BreakContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$BreakContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$CleanupContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$CleanupContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$ComparisonContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$ComparisonContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$DoContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$DoContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$ExpContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$ExpContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$ExplistContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$ExplistContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FalseContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FalseContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FieldContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FieldContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FieldlistContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FieldlistContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FieldsepContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FieldsepContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FirstTimeAttribContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FirstTimeAttribContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FirstTimeIfContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FirstTimeIfContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$ForContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$ForContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$ForMultiAttribContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$ForMultiAttribContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FuncCallContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FuncCallContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FuncDeclarationContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FuncDeclarationContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FuncDefContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FuncDefContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FuncbodyContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FuncbodyContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FuncnameContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FuncnameContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FunctioncallContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FunctioncallContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FunctiondefContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$FunctiondefContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$GetHandleContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$GetHandleContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$GetObjectContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$GetObjectContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$GetScriptContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$GetScriptContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$GotoContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$GotoContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$IfContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$IfContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$LabelContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$LabelContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$LabellContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$LabellContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$LocalAttribContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$LocalAttribContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$LocalFuncDeclarationContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$LocalFuncDeclarationContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$LoopFunContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$LoopFunContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$MultDivModContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$MultDivModContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$MultiAttribContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$MultiAttribContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$NameAndArgsContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$NameAndArgsContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$NamelistContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$NamelistContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$NilContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$NilContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$NumberContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$NumberContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$NumberrContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$NumberrContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$OperatorAddSubContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$OperatorAddSubContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$OperatorAndContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$OperatorAndContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$OperatorBitwiseContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$OperatorBitwiseContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$OperatorComparisonContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$OperatorComparisonContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$OperatorMulDivModContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$OperatorMulDivModContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$OperatorOrContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$OperatorOrContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$OperatorPowerContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$OperatorPowerContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$OperatorPowerrContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$OperatorPowerrContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$OperatorStrcatContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$OperatorStrcatContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$OperatorUnaryContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$OperatorUnaryContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$OrContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$OrContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$ParenExpContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$ParenExpContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$ParlistContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$ParlistContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$PrefixExpressionContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$PrefixExpressionContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$PrefixexpContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$PrefixexpContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$RepeatContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$RepeatContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$RetincenceContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$RetincenceContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$RetstatContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$RetstatContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$SemiColonContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$SemiColonContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$SensingContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$SensingContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$SetJointContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$SetJointContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$SetScriptContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$SetScriptContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$SetupFunContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$SetupFunContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$StatContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$StatContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$StrCatContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$StrCatContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$StringContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$StringContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$StringgContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$StringgContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$TableConstructorContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$TableConstructorContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$TrueContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$TrueContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$UnaryOperatorContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$UnaryOperatorContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$VarContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$VarContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$VarOrExpContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$VarOrExpContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$VarSuffixContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$VarSuffixContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$VarlistContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$VarlistContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$VarrContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$VarrContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$WhileContext.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$WhileContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser.class" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/My_main.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/My_main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/View.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/View.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaBaseVisitor.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaBaseVisitor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaLexer.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaLexer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$AddSubContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$AddSubContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$AndContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$AndContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ArgsContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ArgsContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$BitWiseContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$BitWiseContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$BlockContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$BlockContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$BreakContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$BreakContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ChunkContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ChunkContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$CleanupContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$CleanupContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ComparisonContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ComparisonContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$DoContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$DoContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ExpContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ExpContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ExplistContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ExplistContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FalseContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FalseContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FieldContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FieldContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FieldlistContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FieldlistContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FieldsepContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FieldsepContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FirstTimeAttribContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FirstTimeAttribContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FirstTimeIfContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FirstTimeIfContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ForContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ForContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ForMultiAttribContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ForMultiAttribContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FuncCallContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FuncCallContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FuncDeclarationContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FuncDeclarationContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FuncDefContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FuncDefContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FuncbodyContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FuncbodyContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FuncnameContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FuncnameContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FunctioncallContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FunctioncallContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FunctiondefContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$FunctiondefContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$GetHandleContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$GetHandleContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$GetObjectContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$GetObjectContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$GetScriptContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$GetScriptContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$GotoContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$GotoContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$IfContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$IfContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$LabelContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$LabelContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$LabellContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$LabellContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$LocalAttribContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$LocalAttribContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$LocalFuncDeclarationContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$LocalFuncDeclarationContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$LoopFunContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$LoopFunContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$MultDivModContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$MultDivModContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$MultiAttribContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$MultiAttribContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$NameAndArgsContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$NameAndArgsContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$NamelistContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$NamelistContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$NilContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$NilContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$NumberContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$NumberContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$NumberrContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$NumberrContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorAddSubContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorAddSubContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorAndContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorAndContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorBitwiseContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorBitwiseContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorComparisonContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorComparisonContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorMulDivModContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorMulDivModContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorOrContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorOrContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorPowerContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorPowerContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorPowerrContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorPowerrContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorStrcatContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorStrcatContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorUnaryContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OperatorUnaryContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OrContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$OrContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ParenExpContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ParenExpContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ParlistContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$ParlistContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$PrefixExpressionContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$PrefixExpressionContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$PrefixexpContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$PrefixexpContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$RepeatContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$RepeatContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$RetincenceContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$RetincenceContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$RetstatContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$RetstatContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$SemiColonContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$SemiColonContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$SensingContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$SensingContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$SetJointContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$SetJointContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$SetScriptContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$SetScriptContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$SetupFunContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$SetupFunContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$StatContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$StatContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$StrCatContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$StrCatContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$StringContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$StringContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$StringgContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$StringgContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$TableConstructorContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$TableConstructorContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$TrueContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$TrueContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$UnaryOperatorContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$UnaryOperatorContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$VarContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$VarContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$VarOrExpContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$VarOrExpContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$VarSuffixContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$VarSuffixContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$VarlistContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$VarlistContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$VarrContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$VarrContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$WhileContext.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$WhileContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaVisitor.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaVisitor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/visitors/Translator.class" afterPath="$PROJECT_DIR$/target/classes/br/unb/erekobot/visitors/Translator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tradutor.iml" afterPath="$PROJECT_DIR$/Tradutor.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/output.txt" afterPath="$PROJECT_DIR$/output/output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaBaseVisitor.java" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaBaseVisitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaLexer.java" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaLexer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser.java" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaVisitor.java" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaVisitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/erekobot/visitors/Translator.java" afterPath="$PROJECT_DIR$/src/br/unb/erekobot/visitors/Translator.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$TrueContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$UnaryOperatorContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$VarContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$VarOrExpContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$VarSuffixContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$VarlistContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$VarrContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser$WhileContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaParser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/parser/LuaVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/unb/erekobot/visitors/Translator.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -200,14 +101,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="My_main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="My_main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/unb/erekobot/My_main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
+            <state relative-caret-position="18">
               <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3145#3153#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -216,7 +116,7 @@
       <file leaf-file-name="LuaLexer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaLexer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1533">
+            <state relative-caret-position="2016">
               <caret line="123" column="8" lean-forward="false" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="8" />
               <folding />
             </state>
@@ -226,18 +126,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="396">
               <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LuaParser$TableConstructorContext (Case Conflict).class" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$TableConstructorContext (Case Conflict).class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -267,6 +157,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/br/unb/erekobot/My_main.java" />
       </list>
     </option>
   </component>
@@ -298,6 +189,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -329,8 +222,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -471,19 +362,18 @@
       <updated>1504495635548</updated>
       <workItem from="1504495639218" duration="457000" />
       <workItem from="1504496863136" duration="1270000" />
+      <workItem from="1506092255995" duration="21000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1727000" />
+    <option name="totallyTimeSpent" value="1748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="48" width="1920" height="1032" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -494,7 +384,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -506,6 +396,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -527,7 +418,40 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3145#3153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaLexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2214">
+          <caret line="123" column="8" lean-forward="false" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaBaseVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unb/erekobot/My_main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -542,18 +466,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/unb/erekobot/My_main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
+        <state relative-caret-position="18">
           <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3145#3153#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaLexer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1533">
+        <state relative-caret-position="2016">
           <caret line="123" column="8" lean-forward="false" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="8" />
           <folding />
         </state>
@@ -561,20 +484,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="396">
           <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$TableConstructorContext (Case Conflict).class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unb/erekobot/parser/LuaParser$TableConstructorContext (Case Conflict).class" />
   </component>
   <component name="masterDetails">
     <states>
